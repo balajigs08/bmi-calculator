@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+
+# Model files
+*.pkl
+
+# Data & notebooks
+data/
+notebooks/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log

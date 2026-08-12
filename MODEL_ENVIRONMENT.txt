@@ -1,0 +1,5 @@
+Model compatibility note
+-------------------------
+The saved model uses sklearn._loss internally (from HistGradientBoostingClassifier).
+scikit-learn is pinned to 1.8.0 because the original model loads successfully with that
+version. Do not leave scikit-learn unpinned when deploying this pickle model.
